@@ -19,7 +19,7 @@
       <Separator />
 
       <Panel HitTestMode="LocalBoundsAndChildren">
-					<Text Color="White" Value="Kul animasjon" Margin="20" />
+					<Text Color="White" Value="Filtermeny" Margin="20" />
           <WhilePressed>
             <Scale Factor=".97" Duration=".06" Easing="QuadraticOut" />
 					</WhilePressed>

@@ -64,7 +64,7 @@ public partial class HomePage: Fuse.Controls.Page
         temp6.HitTestMode = Fuse.Elements.HitTestMode.LocalBoundsAndChildren;
         temp6.Children.Add(temp7);
         temp6.Children.Add(temp8);
-        temp7.Value = "Hent et bilde";
+        temp7.Value = "Filtermeny";
         temp7.Color = Fuse.Drawing.Colors.White;
         temp7.Margin = float4(20f, 20f, 20f, 20f);
         temp8.Animators.Add(temp9);
