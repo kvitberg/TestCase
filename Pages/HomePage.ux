@@ -1,0 +1,41 @@
+<Page ux:Class="HomePage" Background="#66ffcc">
+	<JavaScript File="HomePage.js" />
+  <Image Layer="Background" File="../Assets/background.jpg" StretchMode="Fill" Opacity=".7" />
+
+	<ScrollView>
+		<StackPanel ItemSpacing="10" Padding="10" >
+      <Text Color="White" Font="Medium" FontSize="20" Margin="50" Value="TestCase Application" TextAlignment="Center" />
+
+      <Rectangle ux:Class="Separator" Height="1" Fill="#fff4" />
+      <Separator />
+
+      <Panel HitTestMode="LocalBoundsAndChildren">
+					<Text Color="White" Value="Hent et bilde" Margin="20" />
+          <WhilePressed>
+            <Scale Factor=".97" Duration=".06" Easing="QuadraticOut" />
+					</WhilePressed>
+			</Panel>
+
+      <Separator />
+
+      <Panel HitTestMode="LocalBoundsAndChildren">
+					<Text Color="White" Value="Kul animasjon" Margin="20" />
+          <WhilePressed>
+            <Scale Factor=".97" Duration=".06" Easing="QuadraticOut" />
+					</WhilePressed>
+			</Panel>
+
+      <Separator />
+
+      <Panel HitTestMode="LocalBoundsAndChildren">
+					<Image Height="150" File="../Assets/background.jpg" StretchMode="UniformToFill"  />
+          <WhilePressed>
+            <Scale Factor=".97" Duration=".06" Easing="QuadraticOut"/>
+          </WhilePressed>
+			</Panel>
+
+      <Separator />
+
+		</StackPanel>
+	</ScrollView>
+</Page>

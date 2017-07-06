@@ -1,0 +1,21 @@
+<Page ux:Class="FiltersPage" Background="#ff6666">
+	<JavaScript File="FiltersPage.js" />
+
+
+  <Image Layer="Background" File="../Assets/background.jpg" StretchMode="Fill" Opacity=".4" />
+
+	<ScrollView>
+		<StackPanel>
+
+      <Text Color="White" Font="Medium" FontSize="20" Margin="50" Value="Filter menu" TextAlignment="Center"/>
+
+      <Separator />
+      <Each Items="{filters}">
+        <Panel HitTestMode="LocalBoundsAndChildren" Clicked="{chooseHike}">
+          <Text Color="White" Value="{name}" Margin="20" />
+        </Panel>
+      </Each>
+      <Separator />
+		</StackPanel>
+	</ScrollView>
+</Page>

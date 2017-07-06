@@ -1,0 +1,4 @@
+$: -575359940
+BuildCommand: build.sh
+RunCommand: run.sh
+Product: TestCase.apk

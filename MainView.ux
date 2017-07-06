@@ -1,0 +1,13 @@
+<App>
+	<iOS.StatusBarConfig Style="Light" />
+	<Android.StatusBarConfig Color="#022328" />
+
+	<ClientPanel>
+		<PageControl>
+
+        <FiltersPage />
+        <HomePage />
+
+    </PageControl>
+	</ClientPanel>
+</App>

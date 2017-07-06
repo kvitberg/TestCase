@@ -1,0 +1,7 @@
+
+9
+armeabi-v7a
+-O3 -g -DNDEBUG
+
+ -I/Users/kitsco12/Library/Application\ Support/Fusetools/Packages/UnoCore/1.0.13/prebuilt/Android/include -I/sources/android/support/include -I/Users/kitsco12/Library/Application\ Support/Fusetools/Packages/Fuse.Scripting.V8/1.0.5
+/sources/cxx-stl/stlport/stlport
